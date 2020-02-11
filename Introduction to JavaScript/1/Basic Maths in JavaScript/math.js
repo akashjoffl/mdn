@@ -1,21 +1,11 @@
-// Add your code here
+// Final result should be 10.42
+// Add/update your code here
 
-let a = 5;
-let b = 7;
-let c = 4;
-let d = 8;
+let result = 7 + 13 / 9 + 7;
+let result2 = 100 / 2 * 6;
 
-let sum = a + b;
-let sub = d - c;
+result = result * result2;
+let finalResult = result.toFixed(2);
 
-let finalResult = sum * sub;
-let evenOddCheck;
-
-if (finalResult % 2 === 0) {
-    evenOddCheck = "Even Number"
-} else {
-    evenOddCheck = "Odd Number"
-};
-
-console.log(finalResult);
-console.log(evenOddCheck);
+finalNumber = Number(finalResult);
+console.log(typeof(finalNumber));
