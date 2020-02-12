@@ -1,8 +1,4 @@
-let logCall = function() {
-    console.log("called back");
-};
-
-setTimeout(function() {
-    console.log("function called back");
-}, 3000);
-2
+let browserType = 'mozilla';
+console.log(browserType.indexOf('zilla'));
+console.log(browserType.slice(0, 3));
+console.log(browserType.slice(2));
