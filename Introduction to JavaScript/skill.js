@@ -1,19 +1,13 @@
 const list = document.querySelector('.output ul');
 list.innerHTML = '';
-let greetings = ['Happy Birthday!',
-    'Merry Christmas my love',
-    'A happy Christmas to all the family',
-    'You\'re all I want for Christmas',
-    'Get well soon'
-];
+let cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
 
-for (let i = 0; i < greetings.length; i++) {
-    let input = greetings[i];
-    // Your conditional test needs to go inside the parentheses
-    // in the line below, replacing what's currently there
-    if (greetings[i]) {
-        let listItem = document.createElement('li');
-        listItem.textContent = input;
-        list.appendChild(listItem);
-    }
+for (let i = 0; i < cities.length; i++) {
+    let input = cities[i];
+    // write your code just below here
+
+    let result = input;
+    let listItem = document.createElement('li');
+    listItem.textContent = result;
+    list.appendChild(listItem);
 }
