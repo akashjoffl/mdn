@@ -1,13 +1,21 @@
-let myString = 'Ryu+Ken+Chun-Li+Cammy+Guile+Sakura+Sagat+Juri';
-let myArray = myString.split("+");
-let arrayLength = myArray.length;
-let lastItem = myArray.pop();
+let myArray = ["Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat", "Juri"];
 
+// Add your code here
+let myString = myArray.pop(); // [ "Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat" ]
 
-/* 
+myArray.push("Akash", "Jane"); // [ "Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat", "Akash", "Jane" ]
 
-Array: Ryu,Ken,Chun-Li,Cammy,Guile,Sakura,Sagat
+let arrayLength = myArray.length; // 9
 
-The length of the array is 8.
-
-The last item in the array is "Juri". */
+for (let i = 0; i < arrayLength; i++) {
+    let breaker = myArray[i].split(",");
+    breaker
+    let name = breaker[0];
+    name
+    let index = breaker[2];
+    index
+    let finalArray = name + "-" + index;
+    finalArray
+    let list = finalArray.toString;
+    list
+}
