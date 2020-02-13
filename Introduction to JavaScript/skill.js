@@ -1,10 +1,5 @@
-let myHistory = [];
+// Add your code here
+let myArray = ["Zone24x7", "SyscoLabs", "99X", "Virtusa"]
+myArray.unshift("ismAPAC");
 
-if (searchInput.value !== '') {
-    myHistory.unshift(searchInput.value);
-}
-
-if (myHistory.length >= 5) {
-    myHistory.pop();
-
-}
+// Array(5) [ "ismAPAC", "Zone24x7", "SyscoLabs", "99X", "Virtusa" ]
