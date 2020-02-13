@@ -3,22 +3,22 @@ const totalBox = document.querySelector('.output p');
 let total = 0;
 list.innerHTML = '';
 totalBox.textContent = '';
-// number 1
-'Underpants:6.99'
-'Socks:5.99'
-'T-shirt:14.99'
-'Trousers:31.99'
-'Shoes:23.99';
 
-for (let i = 0; i <= 0; i++) { // number 2
-    // number 3
+let products = ['Underpants:6.99',
+    'Socks:5.99',
+    'T-shirt:14.99',
+    'Trousers:31.99',
+    'Shoes:23.99'
+];
 
-    // number 4
+for (let i = 0; i < products.length; i++) {
+    let subArray = products[i].split(':'); // let subArray = products[i].split(':');
+    let name = subArray[0]; // "Socks"
+    let price = Number(subArray[1]); // 5.99
+    total += price;
+    itemText = name + ' — $' + price; // "Socks — $5.99"
 
-    // number 5
-    itemText = 0;
-
-    const listItem = document.createElement('li');
+    let listItem = document.createElement('li');
     listItem.textContent = itemText;
     list.appendChild(listItem);
 }
