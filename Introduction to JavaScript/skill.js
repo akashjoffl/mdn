@@ -1,16 +1,8 @@
 let myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
 
-myArray.push('Cardiff');
-myArray;
-myArray.push('Bradford', 'Brighton');
+myArray.unshift('Edinburgh');
 myArray;
 
-let newLength = myArray.push('Bristol');
-myArray;
-newLength;
-
-myArray.pop();
-
-let removedItem = myArray.pop();
+let removedItem = myArray.shift();
 myArray;
 removedItem;
