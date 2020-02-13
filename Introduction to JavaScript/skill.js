@@ -1,8 +1,26 @@
-let myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
+const list = document.querySelector('.output ul');
+const totalBox = document.querySelector('.output p');
+let total = 0;
+list.innerHTML = '';
+totalBox.textContent = '';
+// number 1
+'Underpants:6.99'
+'Socks:5.99'
+'T-shirt:14.99'
+'Trousers:31.99'
+'Shoes:23.99';
 
-myArray.unshift('Edinburgh');
-myArray;
+for (let i = 0; i <= 0; i++) { // number 2
+    // number 3
 
-let removedItem = myArray.shift();
-myArray;
-removedItem;
+    // number 4
+
+    // number 5
+    itemText = 0;
+
+    const listItem = document.createElement('li');
+    listItem.textContent = itemText;
+    list.appendChild(listItem);
+}
+
+totalBox.textContent = 'Total: $' + total.toFixed(2);
